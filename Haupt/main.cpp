@@ -4,3 +4,5 @@
 #include <stdexcept>
 #include "album.h"
 using namespace std;
+
+int main(){}
