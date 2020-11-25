@@ -8,8 +8,13 @@
 using namespace std;
 
 class Album{
+string album_id;
+string album_name;
+string album_interpet;
+string album_genre;
 
-
+public
+void ausgabe();
 }
 
 
