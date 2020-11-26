@@ -10,3 +10,5 @@ show - done
 Löschen - WIP
 
 Suche - WIP
+
+Auswahl - Case statement welches am schluss wieder selber auffruft
