@@ -13,9 +13,10 @@ string album_name;
 string album_interpet;
 string album_genre;
 
-public
+public:
 void ausgabe();
-}
+void add(vector<Album>&sammlung);
+};
 
 
 

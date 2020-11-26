@@ -5,6 +5,20 @@
 #include "album.h"
 using namespace std;
 
-void ausgabe(){
-  cout << album_id << "-->" << album_name << " " << album_interpet << " " << album_genre << "\n";
+void Album::ausgabe(){
+  cout << album_id << "-->" << album_name << " " << album_interpet << " " << album_genre << "\n"; // Id ausgabe geht noch nicht
+}
+void Album::add(vector<Album>&sammlung) {
+    cout << "Please enter a new Ablum with the name, interpret and the genre";
+    string name;
+    string interpret;
+    string genre;
+    cin >> name >> interpret >> genre;
+    Album album;
+    album.album_id = sammlung.size();
+    album.album_name = name;
+    album.album_interpet = interpret;
+    album.album_genre = genre;
+    sammlung.push_back(album);
+
 }

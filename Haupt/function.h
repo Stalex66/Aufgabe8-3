@@ -5,10 +5,14 @@
 #include <vector>
 #include <string>
 #include <stdexcept>
+#include "album.h"
+class Album;
 
 
 
 void create_sammlung(vector<Album>& sammlung);
+
+
 
 
 
