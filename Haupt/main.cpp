@@ -8,8 +8,9 @@ using namespace std;
 
 int main(){
 vector<Album> sammlung{};
-create_sammlung(sammlung);
+test(sammlung);
+//create_sammlung(sammlung);
 //sammlung.at(0).ausgabe();
-show(sammlung);
+search(sammlung);
     system("pause");
 }

@@ -14,11 +14,12 @@ string album_interpet;
 string album_genre;
 
 public:
+friend void test(vector<Album>&sammlung);
 void ausgabe();
 void add(vector<Album>&sammlung);
 void change(vector<Album>&sammlung);
 void remove(vector<Album>&sammlung);
-void search(vector<Album>&sammlung);
+friend void search(vector<Album>&sammlung);
 };
 
 

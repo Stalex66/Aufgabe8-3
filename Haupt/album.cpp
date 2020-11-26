@@ -24,6 +24,7 @@ void Album::add(vector<Album>&sammlung) {
 
 void Album::change(vector<Album>&sammlung){
     cout << "Please enter the album you want to modify (ID) you can show the list to find ID";
+
 }
 void Album::remove(vector<Album>&sammlung){
 
@@ -31,6 +32,3 @@ void Album::remove(vector<Album>&sammlung){
 
 
 
-void search(vector<Album>&sammlung){
-
-}
