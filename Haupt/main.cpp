@@ -11,7 +11,7 @@ int main(){
     test(sammlung);
     bool stop{true};
     while(stop){
-        cout << "\n" <<"------------------------" <<"\n"<< "choose Operation\n" << "1:Enter (new) Albums\n" << "2:Search\n" << "3: show list\n" << "4:delete Album\n" << "5: change Album\n" << "6: to exit Programm\n";
+        cout << "\n" <<"------------------------" <<"\n"<< "choose Operation\n" << "1:Enter (new) Albums\n" << "2:Search\n" << "3:show list\n" << "4:delete Album\n" << "5:change Album\n" << "6:to exit Programm\n";
         int input;
         cin >> input;
         switch(input){

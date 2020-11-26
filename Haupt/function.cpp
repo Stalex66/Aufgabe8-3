@@ -7,7 +7,7 @@ using namespace std;
 
 
 void create_sammlung(vector<Album>& sammlung){
-        cout << "How many albums do you want to add? enter number";
+        cout << "How many albums do you want to add? enter number\n";
         int amount;
         Album temp;
         cin >> amount;
@@ -89,10 +89,10 @@ void test(vector<Album>&sammlung) {
 }
 
 void change(vector<Album>&sammlung){
-    cout << "Please enter the album you want to modify (ID) you can show the list to find ID";
+    cout << "Please enter the album you want to modify (ID) you can show the list to find ID\n";
     int y;
     cin >> y;
-    cout << "Bitte neue Werte eingeben Name, Interpret, Genre";
+    cout << "Bitte neue Werte eingeben Name, Interpret, Genre\n";
     string name;
     string interpret;
     string genre;
@@ -102,7 +102,7 @@ void change(vector<Album>&sammlung){
 
 }
 void remove(vector<Album>&sammlung){
-    cout << "Please enter the album you want to ´remove (ID) you can show the list to find ID";
+    cout << "Please enter the album you want to ´remove (ID) you can show the list to find ID\n";
     int z;
     cin >> z;
     sammlung.erase(sammlung.begin()+z);
