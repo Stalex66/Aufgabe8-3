@@ -87,3 +87,23 @@ void test(vector<Album>&sammlung) {
     sammlung.push_back(zwei);
     sammlung.push_back(drei);
 }
+
+void change(vector<Album>&sammlung){
+    cout << "Please enter the album you want to modify (ID) you can show the list to find ID";
+    int y;
+    cin >> y;
+    cout << "Bitte neue Werte eingeben Name, Interpret, Genre";
+    string name;
+    string interpret;
+    string genre;
+    sammlung.at(y).album_genre = name;
+    sammlung.at(y).album_interpet = interpret;
+    sammlung.at(y).album_genre = genre;
+
+}
+void remove(vector<Album>&sammlung){
+    cout << "Please enter the album you want to ´remove (ID) you can show the list to find ID";
+    int z;
+    cin >> z;
+    sammlung.erase(sammlung.begin()+z);
+}

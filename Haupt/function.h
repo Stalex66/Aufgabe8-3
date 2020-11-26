@@ -14,10 +14,7 @@ void create_sammlung(vector<Album>& sammlung);
 void show(vector<Album>&sammlung);
 void search(vector<Album>&sammlung);
 void test(vector<Album>&sammlung);
+void change(vector<Album>&sammlung);
+void remove(vector<Album>&sammlung);
 
-
-
-
-
-//Eingabe, Ändern und Löschen
 #endif

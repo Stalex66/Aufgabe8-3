@@ -22,13 +22,7 @@ void Album::add(vector<Album>&sammlung) {
     sammlung.push_back(album);
 }
 
-void Album::change(vector<Album>&sammlung){
-    cout << "Please enter the album you want to modify (ID) you can show the list to find ID";
 
-}
-void Album::remove(vector<Album>&sammlung){
-
-}
 
 
 
