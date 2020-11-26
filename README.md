@@ -6,3 +6,5 @@ Eingabe- done
 Ändern -WIP
 
 Löschen - WIP
+
+Suche - WIP
