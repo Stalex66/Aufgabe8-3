@@ -9,6 +9,7 @@ using namespace std;
 int main(){
 vector<Album> sammlung{};
 create_sammlung(sammlung);
-sammlung.at(0).ausgabe();
+//sammlung.at(0).ausgabe();
+show(sammlung);
     system("pause");
 }

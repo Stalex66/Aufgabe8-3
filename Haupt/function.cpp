@@ -13,9 +13,9 @@ void create_sammlung(vector<Album>& sammlung){
         cin >> amount;
         for(size_t i{0}; i < amount; i++)
             temp.add(sammlung);
+}
 
-
-
-
-
+void show(vector<Album>&sammlung) {
+    for (auto &v : sammlung)
+        v.ausgabe();
 }

@@ -11,7 +11,7 @@ class Album;
 
 
 void create_sammlung(vector<Album>& sammlung);
-
+void show(vector<Album>&sammlung);
 
 
 
