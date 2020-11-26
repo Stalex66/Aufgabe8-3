@@ -9,4 +9,6 @@ show - done
 
 Löschen - WIP
 
-Suche - WIP
+Suche - done
+
+Auswahl - Case statement welches am schluss wieder selber auffruft z.b while(bool exit);
