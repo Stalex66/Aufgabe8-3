@@ -3,6 +3,8 @@
 
 Eingabe- done 
 
+show - done
+
 Ändern -WIP
 
 Löschen - WIP
