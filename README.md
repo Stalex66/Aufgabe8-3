@@ -11,4 +11,4 @@ Löschen - WIP
 
 Suche - WIP
 
-Auswahl - Case statement welches am schluss wieder selber auffruft
+Auswahl - Case statement welches am schluss wieder selber auffruft z.b while(bool exit);
