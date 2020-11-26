@@ -16,6 +16,7 @@ void create_sammlung(vector<Album>& sammlung){
 }
 
 void show(vector<Album>&sammlung) {
+    cout <<"\n";
     for (auto &v : sammlung)
         v.ausgabe();
 }
